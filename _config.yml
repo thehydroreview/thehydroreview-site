@@ -23,7 +23,7 @@ og_image: "/favicon.png"
 
 # Build settings
 markdown: kramdown
-remote_theme: ehcloninger/minimal-mistakes
+remote_theme: thehydroreview/minimal-mistakes
 # theme: minimal-mistakes-jekyll
 # Outputting
 permalink: /:categories/:title/
