@@ -1,9 +1,19 @@
 main:
-  - title: "Posts"
+  - title: "Issues"
     url: /posts/
   - title: "About"
     url: /about/
-  - title: "Tags"
-    url: /tags/
   - title: "Categories"
     url: /categories/
+    
+years:
+  - title: Issues by year
+    children:
+    - title: 1904
+      url: /year/1904
+    - title: 1905
+      url: /year/1905
+    - title: 1906
+      url: /year/1906
+    - title: 1907
+      url: /year/1907

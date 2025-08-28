@@ -17,9 +17,9 @@ title: The Hydro Review Archive
 description: An unofficial archive of an historical newspaper
 minimal_mistakes_skin: default
 search: true
-favicon: "/favicon.png" # the favicon for your site
-logo: &logo "/favicon.png"
-og_image: "/favicon.png"
+favicon: "/assets/banners/favicon.png" # the favicon for your site
+logo: &logo "/assets/banners/favicon.png"
+og_image: "/assets/banners/favicon.png"
 
 # Build settings
 markdown: kramdown
