@@ -6,6 +6,9 @@ toc: true
 
 ## About This Site
 
+## Legal Status
+
+## Tecnical Stack
 
 ## Credits
 

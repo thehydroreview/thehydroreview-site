@@ -5,6 +5,8 @@ main:
     url: /about/
   - title: "Categories"
     url: /categories/
+  - title: "Contact"
+    url: /contact/
     
 years:
   - title: Issues by year
