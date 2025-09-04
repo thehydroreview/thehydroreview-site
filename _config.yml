@@ -14,21 +14,30 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: The Hydro Review
+url: https://thehydroreview.com
 masthead_title:
 minimal_mistakes_skin: default
-search: true
 favicon: "/assets/banners/favicon.png" # the favicon for your site
 logo: &logo "/assets/banners/masthead.png"
 og_image: "/assets/banners/favicon.png"
+date_format: "%A, %B %-d, %Y"
 
 # Build settings
 markdown: kramdown
 remote_theme: thehydroreview/minimal-mistakes
-# theme: minimal-mistakes-jekyll
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
+
+search_provider: algolia
+search: true
+
+algolia:
+  application_id: URBUGGX5IT # YOUR_APPLICATION_ID
+  index_name:  thehydroreview-main # YOUR_INDEX_NAME
+  search_only_api_key: ccf9435670096a7da16a58309e9a8ca9 # YOUR_SEARCH_ONLY_API_KEY
+  powered_by: # true (default), false
 
 include:
   - _pages
@@ -72,6 +81,8 @@ defaults:
       share: false
       related: true
       show_date: true
+      sidebar:
+        nav: "years"
   # _pages
   - scope:
       path: "_pages"
@@ -83,6 +94,8 @@ defaults:
         twitter: *logo
       twitter:
         card: summary
+      sidebar:
+        nav: "years"
 
 category_archive:
   type: liquid

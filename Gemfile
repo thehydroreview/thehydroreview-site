@@ -9,6 +9,9 @@ gem "minimal-mistakes-jekyll"
 gem "csv"
 gem "base64"
 gem "bigdecimal"
+gem "ostruct"
+gem "fiddle"
+gem "faraday-retry"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -21,4 +24,5 @@ group :jekyll_plugins do
   gem "kramdown-parser-gfm"
   gem "jekyll-remote-theme"
   gem "jekyll-local-theme"
+  gem "jekyll-algolia"
 end
