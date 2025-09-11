@@ -1,0 +1,38 @@
+---
+layout: none
+---
+[
+  {% for post in site.posts %}
+        {
+            "title"      : "{{ post.title | escape }}",
+            "url"        : "{{ site.baseurl }}{{ post.url }}",
+            "content"    : {{ post.content | strip_html | strip_newlines | jsonify }}
+        }
+        {% if post.categories contains "issues" %}
+        ,
+            {% for apage in post.issue.pages %}
+                {% assign words = "" %}
+                {% for line in apage.words %}
+                    {% assign words = words | append: line | strip_newlines %}
+                {% endfor %}
+                {
+                    "title"      : "{{ post.title | append: ' Page ' | append: forloop.index | escape }}",
+                    "url"        : "{{ site.baseurl }}{{ post.url }}index.html#page-{{ forloop.index }}",
+                    "content"    : {{ words | jsonify }}
+                }
+                {% unless forloop.last %},{% endunless %}
+            {% endfor %}
+        {% endif %}
+        {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  ,
+  {% for page in site.pages %}
+   {
+     {% if page.title != nil %}
+        "title"    : "{{ page.title | escape }}",
+        "url"      : "{{ site.baseurl }}{{ page.url }}",
+        "content"  : {{ post.content | strip_html | strip_newlines | jsonify }}
+     {% endif %}
+   } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

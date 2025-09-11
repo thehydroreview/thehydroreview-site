@@ -37,7 +37,7 @@ algolia:
   application_id: URBUGGX5IT # YOUR_APPLICATION_ID
   index_name:  thehydroreview-main # YOUR_INDEX_NAME
   search_only_api_key: ccf9435670096a7da16a58309e9a8ca9 # YOUR_SEARCH_ONLY_API_KEY
-  powered_by: # true (default), false
+  powered_by: true
 
 include:
   - _pages
