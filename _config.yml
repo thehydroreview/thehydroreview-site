@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: The Hydro Review
+author: The Hydro Review
 url: https://thehydroreview.com
 masthead_title:
 minimal_mistakes_skin: default
@@ -68,10 +69,6 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
 
-author:
-  name   : "The Hydro Historical Society"
-  # bio    : "The Hydro Historical Society"
-
 defaults:
   # _posts
   - scope:
@@ -101,6 +98,10 @@ defaults:
       sidebar:
         nav: "years"
 
+author:
+  name   : "The Hydro Review"
+  avatar : "/assets/banners/channel-logo.png"
+      
 category_archive:
   type: liquid
   path: /categories/

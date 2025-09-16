@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: The Hydro Review
+author: The Hydro Review
 masthead_title:
 minimal_mistakes_skin: default
 favicon: "/assets/banners/favicon.png" # the favicon for your site
@@ -68,10 +69,6 @@ plugins:
   - jekyll-remote-theme
   - jekyll-local-theme
 
-author:
-  name   : "The Hydro Historical Society"
-  # bio    : "Keeping Hydro's Memories Alive"
-
 defaults:
   # _posts
   - scope:
@@ -100,6 +97,10 @@ defaults:
         card: summary
       sidebar:
         nav: "years"
+
+author:
+  name   : "The Hydro Review"
+  avatar : "/assets/banners/channel-logo.png"
 
 category_archive:
   type: liquid

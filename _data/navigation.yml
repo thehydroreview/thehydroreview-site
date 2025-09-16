@@ -9,6 +9,10 @@ main:
     url: /contact/
     
 years:
+  - title: Links
+    children:
+    - title: "Hydro Historical Society"
+      url: https://hydrohistory.org
   - title: Issues by year
     children:
     - title: 1904
