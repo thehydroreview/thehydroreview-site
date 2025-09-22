@@ -7,3 +7,4 @@ _site/
 vendor/
 _algolia_api_key
 content/*
+node_modules
