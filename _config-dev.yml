@@ -49,7 +49,8 @@ include:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
+exclude:
+  - assets/originals
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
@@ -100,7 +101,7 @@ defaults:
 
 author:
   name   : "The Hydro Review"
-  avatar : "/assets/banners/channel-logo.png"
+  avatar : "/assets/banners/oklahoma-outline.png"
 
 category_archive:
   type: liquid
