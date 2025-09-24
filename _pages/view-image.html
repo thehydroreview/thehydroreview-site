@@ -25,9 +25,9 @@ layout: default
     }
 
     const queryString = window.location.search;
-    console.log(queryString)
+    // console.log(queryString)
     const urlParams = new URLSearchParams(queryString);
-    console.log(urlParams)
+    // console.log(urlParams)
     const yy = urlParams.get('yy')
     const mm = urlParams.get('mm')
     const dd = urlParams.get('dd')
@@ -71,9 +71,9 @@ layout: default
         prev = pad(parseInt(page) - 1, 2);
     }
     button = document.getElementById('pager-prev');
-    button.href = "/view-image?yy=" + yy + "&mm=" + mm + "&dd=" + dd + "&page=" + prev + "&pagecount=" + pagecount;
+    button.href = "/view-image/?yy=" + yy + "&mm=" + mm + "&dd=" + dd + "&page=" + prev + "&pagecount=" + pagecount;
     button = document.getElementById('pager-next');
-    button.href = "/view-image?yy=" + yy + "&mm=" + mm + "&dd=" + dd + "&page=" + next + "&pagecount=" + pagecount;
+    button.href = "/view-image/?yy=" + yy + "&mm=" + mm + "&dd=" + dd + "&page=" + next + "&pagecount=" + pagecount;
 
     var val = document.getElementById('imgDiv').value,
         src = "https://content.thehydroreview.com/content/" + 
