@@ -4,7 +4,6 @@ permalink: /view-image/
 layout: default
 ---
 
-<canvas id="canvas" style="width:100%;height:100%;position:absolute;"></canvas>
 <nav class="pagination">
     <div>
         <a id="pager-prev" class="pagination--pagerimageview" href=""><i class="fa-solid fa-backward"></i></a>
@@ -14,6 +13,7 @@ layout: default
     </div>
 </nav>
 <div id="imgDiv">
+<canvas id="canvas" style="width:100%;height:100%;position:absolute;"></canvas>
 
 </div>
 
@@ -44,7 +44,7 @@ layout: default
     };
 
     var button = document.getElementById('pager-back');
-    button.href = "/issues/hydro-review-" + yy + "-" + mm + "-" + dd;
+    button.href = "https://thehydroreview.com/issues/hydro-review-" + yy + "-" + mm + "-" + dd;
     // http://localhost:4000/content/1904/1904-07-15/HR-1904-07-15.pdf
     button = document.getElementById('pager-pdf');
     button.target = "_blank";
@@ -71,9 +71,9 @@ layout: default
         prev = pad(parseInt(page) - 1, 2);
     }
     button = document.getElementById('pager-prev');
-    button.href = "/view-image/?yy=" + yy + "&mm=" + mm + "&dd=" + dd + "&page=" + prev + "&pagecount=" + pagecount;
+    button.href = "https://thehydroreview.com/view-image/?yy=" + yy + "&mm=" + mm + "&dd=" + dd + "&page=" + prev + "&pagecount=" + pagecount;
     button = document.getElementById('pager-next');
-    button.href = "/view-image/?yy=" + yy + "&mm=" + mm + "&dd=" + dd + "&page=" + next + "&pagecount=" + pagecount;
+    button.href = "https://thehydroreview.com/view-image/?yy=" + yy + "&mm=" + mm + "&dd=" + dd + "&page=" + next + "&pagecount=" + pagecount;
 
     var val = document.getElementById('imgDiv').value,
         src = "https://content.thehydroreview.com/content/" + 
