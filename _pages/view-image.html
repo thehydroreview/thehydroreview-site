@@ -1,0 +1,84 @@
+---
+title: "View"
+permalink: /view-image/
+layout: default
+---
+
+<canvas id="canvas" style="width:100%;height:100%;position:absolute;"></canvas>
+<nav class="pagination">
+    <div>
+        <a id="pager-prev" class="pagination--pagerimageview" href=""><i class="fa-solid fa-backward"></i></a>
+        <a id="pager-back" class="pagination--pagerimageview" href=""><i class="fa-solid fa-calendar-days"></i></a>
+        <a id="pager-pdf" class="pagination--pagerimageview" href=""><i class="fa-solid fa-file-pdf"></i></a>
+        <a id="pager-next" class="pagination--pagerimageview" href=""><i class="fa-solid fa-forward"></i></a>
+    </div>
+</nav>
+<div id="imgDiv">
+
+</div>
+
+<script type="text/javascript">
+    function pad(num, size) {
+        num = num.toString();
+        while (num.length < size) num = "0" + num;
+        return num;
+    }
+
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const yy = urlParams.get('yy')
+    const mm = urlParams.get('mm')
+    const dd = urlParams.get('dd')
+    const page = urlParams.get('page')
+    const pagecount = urlParams.get('pagecount')
+
+    var canvas = document.getElementById('canvas');
+    var ctx = canvas.getContext('2d');
+    var imageObj = document.getElementById('imgDiv');
+    imageObj.onload = function(e) {
+        ctx.canvas.width = imageObj.width;
+        ctx.canvas.height = imageObj.height;
+        ctx.drawImage(imageObj, 0, 0, imageObj.width, imageObj.height);    
+    };
+
+    var button = document.getElementById('pager-back');
+    button.href = "/issues/hydro-review-" + yy + "-" + mm + "-" + dd;
+    // http://localhost:4000/content/1904/1904-07-15/HR-1904-07-15.pdf
+    button = document.getElementById('pager-pdf');
+    button.target = "_blank";
+    button.href = "https://content.thehydroreview.com/content/" + 
+                yy + "/" + yy + "-" + mm + "-" + dd + 
+                "/HR-" + yy + "-" + mm + "-" + dd + ".pdf";
+
+    if (parseInt(pagecount) == 1)
+    {
+        next = "01";
+        prev = "01";
+    } else if (page == pagecount)
+    {
+        next = "01";
+        prev = pad(parseInt(pagecount) - 1, 2);
+    }
+    else if (page == 1)
+    {
+        next = pad(parseInt(page) + 1, 2);
+        prev = pad(parseInt(pagecount), 2);
+    } else
+    {
+        next = pad(parseInt(page) + 1, 2);
+        prev = pad(parseInt(page) - 1, 2);
+    }
+    button = document.getElementById('pager-prev');
+    button.href = "/view-image?yy=" + yy + "&mm=" + mm + "&dd=" + dd + "&page=" + prev + "&pagecount=" + pagecount;
+    button = document.getElementById('pager-next');
+    button.href = "/view-image?yy=" + yy + "&mm=" + mm + "&dd=" + dd + "&page=" + next + "&pagecount=" + pagecount;
+
+    var val = document.getElementById('imgDiv').value,
+        src = "https://content.thehydroreview.com/content/" + 
+                yy + "/" + yy + "-" + mm + "-" + dd + 
+                "/medium/HR-" + yy + "-" + mm + "-" + dd + "-" + page + ".jpg",
+        img = document.createElement('img');
+        img.src = src;
+        document.body.appendChild(img);
+</script>
+
