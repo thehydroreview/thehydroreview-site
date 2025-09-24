@@ -4,20 +4,38 @@ permalink: /view-image/
 layout: default
 ---
 
-<nav class="pagination">
+<nav id="nav-top" class="pagination">
     <div>
-        <a id="pager-prev" class="pagination--pagerimageview" href=""><i class="fa-solid fa-backward"></i></a>
-        <a id="pager-back" class="pagination--pagerimageview" href=""><i class="fa-solid fa-calendar-days"></i></a>
-        <a id="pager-pdf" class="pagination--pagerimageview" href=""><i class="fa-solid fa-file-pdf"></i></a>
-        <a id="pager-next" class="pagination--pagerimageview" href=""><i class="fa-solid fa-forward"></i></a>
+        <a id="top-pager-prev" class="pagination--pagerimageview" href=""><i class="fa-solid fa-backward"></i></a>
+        <a id="top-pager-back" class="pagination--pagerimageview" href=""><i class="fa-solid fa-calendar-days"></i></a>
+        <a id="top-pager-pdf" class="pagination--pagerimageview" href=""><i class="fa-solid fa-file-pdf"></i></a>
+        <a id="top-pager-next" class="pagination--pagerimageview" href=""><i class="fa-solid fa-forward"></i></a>
     </div>
 </nav>
 <div id="imgDiv">
-<canvas id="canvas" style="width:100%;height:100%;position:absolute;"></canvas>
-
 </div>
 
+<nav id="nav-bottom" class="pagination">
+    <div>
+        <a id="bottom-pager-prev" class="pagination--pagerimageview" href=""><i class="fa-solid fa-backward"></i></a>
+        <a id="bottom-pager-back" class="pagination--pagerimageview" href=""><i class="fa-solid fa-calendar-days"></i></a>
+        <a id="bottom-pager-pdf" class="pagination--pagerimageview" href=""><i class="fa-solid fa-file-pdf"></i></a>
+        <a id="bottom-pager-next" class="pagination--pagerimageview" href=""><i class="fa-solid fa-forward"></i></a>
+    </div>
+</nav>
+
 <script type="text/javascript">
+    window.onload = function() {
+        var elem = document.createElement("img");
+        
+        elem.setAttribute("src", "https://content.thehydroreview.com/content/" + 
+                yy + "/" + yy + "-" + mm + "-" + dd + 
+                "/medium/HR-" + yy + "-" + mm + "-" + dd + "-" + page + ".jpg",);
+        elem.setAttribute("height", "1920");
+        elem.setAttribute("width", "1920");
+        document.getElementById("imgDiv").appendChild(elem);
+    }
+
     function pad(num, size) {
         num = num.toString();
         while (num.length < size) num = "0" + num;
@@ -25,28 +43,26 @@ layout: default
     }
 
     const queryString = window.location.search;
-    // console.log(queryString)
     const urlParams = new URLSearchParams(queryString);
-    // console.log(urlParams)
     const yy = urlParams.get('yy')
     const mm = urlParams.get('mm')
     const dd = urlParams.get('dd')
     const page = urlParams.get('page')
     const pagecount = urlParams.get('pagecount')
 
-    var canvas = document.getElementById('canvas');
-    var ctx = canvas.getContext('2d');
-    var imageObj = document.getElementById('imgDiv');
-    imageObj.onload = function(e) {
-        ctx.canvas.width = imageObj.width;
-        ctx.canvas.height = imageObj.height;
-        ctx.drawImage(imageObj, 0, 0, imageObj.width, imageObj.height);    
-    };
-
-    var button = document.getElementById('pager-back');
+    var button = document.getElementById('top-pager-back');
     button.href = "https://thehydroreview.com/issues/hydro-review-" + yy + "-" + mm + "-" + dd;
-    // http://localhost:4000/content/1904/1904-07-15/HR-1904-07-15.pdf
-    button = document.getElementById('pager-pdf');
+    
+    button = document.getElementById('top-pager-pdf');
+    button.target = "_blank";
+    button.href = "https://content.thehydroreview.com/content/" + 
+                yy + "/" + yy + "-" + mm + "-" + dd + 
+                "/HR-" + yy + "-" + mm + "-" + dd + ".pdf";
+
+    button = document.getElementById('bottom-pager-back');
+    button.href = "https://thehydroreview.com/issues/hydro-review-" + yy + "-" + mm + "-" + dd;
+    
+    button = document.getElementById('bottom-pager-pdf');
     button.target = "_blank";
     button.href = "https://content.thehydroreview.com/content/" + 
                 yy + "/" + yy + "-" + mm + "-" + dd + 
@@ -70,17 +86,17 @@ layout: default
         next = pad(parseInt(page) + 1, 2);
         prev = pad(parseInt(page) - 1, 2);
     }
-    button = document.getElementById('pager-prev');
-    button.href = "https://thehydroreview.com/view-image/?yy=" + yy + "&mm=" + mm + "&dd=" + dd + "&page=" + prev + "&pagecount=" + pagecount;
-    button = document.getElementById('pager-next');
-    button.href = "https://thehydroreview.com/view-image/?yy=" + yy + "&mm=" + mm + "&dd=" + dd + "&page=" + next + "&pagecount=" + pagecount;
-
-    var val = document.getElementById('imgDiv').value,
-        src = "https://content.thehydroreview.com/content/" + 
-                yy + "/" + yy + "-" + mm + "-" + dd + 
-                "/medium/HR-" + yy + "-" + mm + "-" + dd + "-" + page + ".jpg",
-        img = document.createElement('img');
-        img.src = src;
-        document.body.appendChild(img);
+    button = document.getElementById('top-pager-prev');
+    button.href = "https://thehydroreview.com/view-image/?yy=" + 
+                    yy + "&mm=" + mm + "&dd=" + dd + "&page=" + prev + "&pagecount=" + pagecount;
+    button = document.getElementById('bottom-pager-prev');
+    button.href = "https://thehydroreview.com/view-image/?yy=" + 
+                    yy + "&mm=" + mm + "&dd=" + dd + "&page=" + prev + "&pagecount=" + pagecount;
+    button = document.getElementById('top-pager-next');
+    button.href = "https://thehydroreview.com/view-image/?yy=" + 
+                    yy + "&mm=" + mm + "&dd=" + dd + "&page=" + next + "&pagecount=" + pagecount;
+    button = document.getElementById('bottom-pager-next');
+    button.href = "https://thehydroreview.com/view-image/?yy=" + 
+                    yy + "&mm=" + mm + "&dd=" + dd + "&page=" + next + "&pagecount=" + pagecount;
 </script>
 
