@@ -25,7 +25,9 @@ layout: default
     }
 
     const queryString = window.location.search;
+    console.log(queryString)
     const urlParams = new URLSearchParams(queryString);
+    console.log(urlParams)
     const yy = urlParams.get('yy')
     const mm = urlParams.get('mm')
     const dd = urlParams.get('dd')
