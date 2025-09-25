@@ -51,7 +51,7 @@ layout: default
     const pagecount = urlParams.get('pagecount')
 
     var button = document.getElementById('top-pager-back');
-    button.href = "https://thehydroreview.com/issues/hydro-review-" + yy + "-" + mm + "-" + dd;
+    button.href = "/issues/hydro-review-" + yy + "-" + mm + "-" + dd;
     
     button = document.getElementById('top-pager-pdf');
     button.target = "_blank";
@@ -60,7 +60,7 @@ layout: default
                 "/HR-" + yy + "-" + mm + "-" + dd + ".pdf";
 
     button = document.getElementById('bottom-pager-back');
-    button.href = "https://thehydroreview.com/issues/hydro-review-" + yy + "-" + mm + "-" + dd;
+    button.href = "/issues/hydro-review-" + yy + "-" + mm + "-" + dd;
     
     button = document.getElementById('bottom-pager-pdf');
     button.target = "_blank";
@@ -87,16 +87,16 @@ layout: default
         prev = pad(parseInt(page) - 1, 2);
     }
     button = document.getElementById('top-pager-prev');
-    button.href = "https://thehydroreview.com/view-image/?yy=" + 
+    button.href = "/view-image/?yy=" + 
                     yy + "&mm=" + mm + "&dd=" + dd + "&page=" + prev + "&pagecount=" + pagecount;
     button = document.getElementById('bottom-pager-prev');
-    button.href = "https://thehydroreview.com/view-image/?yy=" + 
+    button.href = "/view-image/?yy=" + 
                     yy + "&mm=" + mm + "&dd=" + dd + "&page=" + prev + "&pagecount=" + pagecount;
     button = document.getElementById('top-pager-next');
-    button.href = "https://thehydroreview.com/view-image/?yy=" + 
+    button.href = "/view-image/?yy=" + 
                     yy + "&mm=" + mm + "&dd=" + dd + "&page=" + next + "&pagecount=" + pagecount;
     button = document.getElementById('bottom-pager-next');
-    button.href = "https://thehydroreview.com/view-image/?yy=" + 
+    button.href = "/view-image/?yy=" + 
                     yy + "&mm=" + mm + "&dd=" + dd + "&page=" + next + "&pagecount=" + pagecount;
 </script>
 
