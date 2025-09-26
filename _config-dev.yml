@@ -39,7 +39,9 @@ algolia:
   index_name:  thehydroreview-main # YOUR_INDEX_NAME
   search_only_api_key: ccf9435670096a7da16a58309e9a8ca9 # YOUR_SEARCH_ONLY_API_KEY
   powered_by: true
-
+  files_to_exclude:
+    - /words/*
+    
 google:
   search_engine_id       : G-QZSRX88WM7
   instant_search         : true
