@@ -46,4 +46,8 @@ Within the PDF tab, search for a specific word by pressing **CTRL-F**. This will
 
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/qP4pABbWtfA?controls=0" frameborder="0" allowfullscreen></iframe>
 
+## Another Way to Search
+
+In generating the site, have a list of all the words that are people's names and place names in another file. It's not as useful usually as using the search box, but it might help you find what you need. It's a rather large file (about 12MB), so it may take a few seconds to load. It's still not sentences from the issue, but it might help. [Click here](/words/) to load the file.
+
 Happy searching. We hope you enjoy reading about Hydro through the years. If you have suggestions, please reach out to us using the [contact page](/contact) or on [FaceBook](https://www.facebook.com/groups/1016477133673656).
