@@ -27,26 +27,4 @@ permalink: /year/
 <li><a href="/year/1923"><strong>1923</strong> <span class="taxonomy__count">52 Issues</span></a></li>
 <li><a href="/year/1924"><strong>1924</strong> <span class="taxonomy__count">52 Issues</span></a></li>
 <li><a href="/year/1925"><strong>1925</strong> <span class="taxonomy__count">53 Issues</span></a></li>
-<li><a href="/year/1926"><strong>1926</strong> <span class="taxonomy__count">52 Issues</span></a></li>
-<li><a href="/year/1927"><strong>1927</strong> <span class="taxonomy__count">52 Issues</span></a></li>
-<li><a href="/year/1928"><strong>1928</strong> <span class="taxonomy__count">52 Issues</span></a></li>
-<li><a href="/year/1929"><strong>1929</strong> <span class="taxonomy__count">52 Issues</span></a></li>
-<li><a href="/year/1930"><strong>1930</strong> <span class="taxonomy__count">52 Issues</span></a></li>
-<li><a href="/year/1931"><strong>1931</strong> <span class="taxonomy__count">53 Issues</span></a></li>
-<li><a href="/year/1932"><strong>1932</strong> <span class="taxonomy__count">52 Issues</span></a></li>
-<li><a href="/year/1933"><strong>1933</strong> <span class="taxonomy__count">50 Issues</span></a></li>
-<li><a href="/year/1934"><strong>1934</strong> <span class="taxonomy__count">52 Issues</span></a></li>
-<li><a href="/year/1935"><strong>1935</strong> <span class="taxonomy__count">52 Issues</span></a></li>
-<li><a href="/year/1936"><strong>1936</strong> <span class="taxonomy__count">53 Issues</span></a></li>
-<li><a href="/year/1937"><strong>1937</strong> <span class="taxonomy__count">52 Issues</span></a></li>
-<li><a href="/year/1938"><strong>1938</strong> <span class="taxonomy__count">52 Issues</span></a></li>
-<li><a href="/year/1939"><strong>1939</strong> <span class="taxonomy__count">52 Issues</span></a></li>
-<li><a href="/year/1940"><strong>1940</strong> <span class="taxonomy__count">52 Issues</span></a></li>
-<li><a href="/year/1941"><strong>1941</strong> <span class="taxonomy__count">52 Issues</span></a></li>
-<li><a href="/year/1942"><strong>1942</strong> <span class="taxonomy__count">53 Issues</span></a></li>
-<li><a href="/year/1943"><strong>1943</strong> <span class="taxonomy__count">51 Issues</span></a></li>
-<li><a href="/year/1944"><strong>1944</strong> <span class="taxonomy__count">52 Issues</span></a></li>
-<li><a href="/year/1945"><strong>1945</strong> <span class="taxonomy__count">52 Issues</span></a></li>
-<li><a href="/year/1946"><strong>1946</strong> <span class="taxonomy__count">52 Issues</span></a></li>
-<li><a href="/year/1947"><strong>1947</strong> <span class="taxonomy__count">52 Issues</span></a></li>
 </ul>

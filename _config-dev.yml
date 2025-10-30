@@ -54,6 +54,7 @@ include:
 # to override the default setting.
 exclude:
   - assets/originals
+  - _drafts
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
