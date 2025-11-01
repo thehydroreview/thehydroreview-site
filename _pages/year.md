@@ -27,4 +27,5 @@ permalink: /year/
 <li><a href="/year/1923"><strong>1923</strong> <span class="taxonomy__count">52 Issues</span></a></li>
 <li><a href="/year/1924"><strong>1924</strong> <span class="taxonomy__count">52 Issues</span></a></li>
 <li><a href="/year/1925"><strong>1925</strong> <span class="taxonomy__count">53 Issues</span></a></li>
+<li><a href="/year/1926"><strong>1926</strong> <span class="taxonomy__count">52 Issues</span></a></li>
 </ul>

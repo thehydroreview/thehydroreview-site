@@ -23,6 +23,9 @@ Most of the tools used to create this site are open-source with permissive licen
 * Icons on this site are provided by [Font Awesome](https://fontawesome.com/).
 * Development and editing was done primarily in [VSCode](https://github.com/microsoft/vscode).
 * Source code is stored in public [Github repos](https://github.com/thehydroreview) and deployed to production using modern CI/CD methods.
+* Various pieces of vector art on the site from [Vecteezy](https://www.vecteezy.com)
+  * Water tower by [Abdurrohim Arifuddin](https://www.vecteezy.com/members/113855795731930470492)
+  * Newspaper in OG image by [Diana Johanna Velasquez](https://www.vecteezy.com/members/djvstock)
 
 ### Commercial
 

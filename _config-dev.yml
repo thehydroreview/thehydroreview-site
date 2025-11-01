@@ -20,7 +20,7 @@ masthead_title:
 minimal_mistakes_skin: default
 favicon: "/assets/banners/favicon.png" # the favicon for your site
 logo: &logo "/assets/banners/masthead.png"
-og_image: "/assets/banners/favicon.png"
+og_image: "/assets/banners/thehydroreview_og.png"
 date_format: "%A, %B %-d, %Y"
 
 # Build settings
