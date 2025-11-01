@@ -2,6 +2,7 @@
 title: Year Index
 layout: issue
 permalink: /year/
+og_image: /assets/banners/thehydroreview_og.png
 ---
 
 <ul class="taxonomy__index">
