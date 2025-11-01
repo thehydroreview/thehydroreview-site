@@ -2,8 +2,8 @@
 title: "View"
 permalink: /view-image/
 layout: imagepage
+description: "View pages of The Hydro Review"
 ---
-
 <nav id="nav-top" class="pagination">
     <div>
         <a id="top-pager-prev" class="pagination--pagerimageview" href=""><i class="fa-solid fa-backward"></i></a>
@@ -23,6 +23,8 @@ layout: imagepage
         <a id="bottom-pager-next" class="pagination--pagerimageview" href=""><i class="fa-solid fa-forward"></i></a>
     </div>
 </nav>
+
+<h1 id="pageno" style="text-align: center;">&nbsp;</h1>
 
 <script type="text/javascript">
     window.onload = function() {
@@ -50,6 +52,9 @@ layout: imagepage
     const dd = urlParams.get('dd')
     const page = urlParams.get('page')
     const pagecount = urlParams.get('pagecount')
+
+    var h1 = document.getElementById("pageno");
+    h1.innerHTML = "The Hydro Review: " + yy + "-" + mm + "-" + dd + ", Page " + page;
 
     var button = document.getElementById('top-pager-back');
     button.href = "/issues/hydro-review-" + yy + "-" + mm + "-" + dd;
