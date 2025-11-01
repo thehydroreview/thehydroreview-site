@@ -1,7 +1,6 @@
 ---
 permalink: /contact/
 title: Contact
-toc: true
 ---
 
 We hope this site is useful and informative. We've done our best to ensure the data is correct and indexed properly. Over time, we will make changes to any information that is found to be incorrect.
@@ -12,7 +11,7 @@ Please include your email address if you want a response. If you found a problem
 
 <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdOmuFTylR6RSX-sVyBCOyn0A1t-8K1jo_5V94ompH03fUUDQ/formResponse" method="post"  target="_blank">
       <label>Name*</label>
-      <input type="text" placeholder="Subject" name="entry.2005620554" required>
+      <input type="text" placeholder="Name" name="entry.2005620554" required>
     
       <label>Email Address</label>
       <input type="email" placeholder="Email address*" name="entry.1045781291">

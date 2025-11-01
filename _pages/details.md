@@ -1,5 +1,6 @@
 ---
 title: Technical Details
+description: "Technical details about this site, how it is built, and whose contributions helped."
 permalink: /details/
 toc: true
 ---
@@ -14,9 +15,9 @@ Most of the tools used to create this site are open-source with permissive licen
 * The site design is based on [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes), by [Michael Rose](https://mademistakes.com/).
 * PDF operations were performed using [Poppler](https://poppler.freedesktop.org/) and [GhostScript](https://ghostscript.com/).
 * Optical Character Recognition was performed using [Tesseract](https://tesseract-ocr.github.io/).
-* Image processing was performed using [ImageMagick](https://imagemagick.org/).
+* Image processing was performed using [ImageMagick](https://imagemagick.org/) and [ScanTailor](https://github.com/4lex4/scantailor-advanced).
 * Search word dictionaries are based on [SCOWL](http://wordlist.aspell.net/) that are built into the aspell tool.
-* EXIF metadata for the images was inserted using [exiftool](https://exiftool.org/) by Phil Harvey.
+* EXIF metadata for the images was inserted using [exiftool](https://exiftool.org/) by Phil Harvey and supported by [StarGeek](https://exiftool.org/forum/index.php?action=profile;u=1175).
 
 ### Free-to-use
 
@@ -39,4 +40,4 @@ Most of the tools used to create this site are open-source with permissive licen
 ## Credits
 
 * Word lists for the given and surnames were based on work done by Rhett Butler and published on their site at [probablyhelpful.com/](https://probablyhelpful.com). All data is derived from David L. Word, Charles D. Coleman, Robert Nunziata and Robert Kominski (2008). *Demographic Aspects of Surnames from Census 2000*. U.S. Census Bureau.
-* Much of the work on this site was based on the discoveries of others. There are countless numbers of [StackOverflow](https://stackoverflow.com) and [Jekyll Talk](https://talk.jekyllrb.com) articles that we read to get everything organized. It's impossible to thank everyone whose body of knowledge was used to build this site, but their contributions are appreciated.
+* Much of the work on this site was based on the discoveries of others. There are countless numbers of [StackOverflow](https://stackoverflow.com), [Jekyll Talk](https://talk.jekyllrb.com), and [exiftool](https://exiftool.org/forum/) articles that we read to get everything organized. It's impossible to thank everyone whose body of knowledge was used to build this site, but their contributions are appreciated.
