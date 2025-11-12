@@ -1,8 +1,10 @@
 ---
 title: Year Index
+description: "Links to each years issues, with a count of issues per year"
 layout: issue
 permalink: /year/
 og_image: /assets/banners/thehydroreview_og.png
+description: "Links to each years issues, with a count of issues per year"
 ---
 
 <ul class="taxonomy__index">
@@ -29,4 +31,5 @@ og_image: /assets/banners/thehydroreview_og.png
 <li><a href="/year/1924"><strong>1924</strong> <span class="taxonomy__count">52 Issues</span></a></li>
 <li><a href="/year/1925"><strong>1925</strong> <span class="taxonomy__count">53 Issues</span></a></li>
 <li><a href="/year/1926"><strong>1926</strong> <span class="taxonomy__count">52 Issues</span></a></li>
+<li><a href="/year/1927"><strong>1927</strong> <span class="taxonomy__count">52 Issues</span></a></li>
 </ul>

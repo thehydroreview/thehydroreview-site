@@ -55,6 +55,7 @@ include:
 exclude:
   - assets/originals
   - _drafts
+  - content
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
