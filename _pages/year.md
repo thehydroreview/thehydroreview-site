@@ -3,7 +3,7 @@ title: Year Index
 description: "Links to each years issues, with a count of issues per year"
 layout: issue
 permalink: /year/
-og_image: /assets/banners/thehydroreview_og.png
+og_image: /assets/banners/thehydroreview_og.jpg
 description: "Links to each years issues, with a count of issues per year"
 ---
 
