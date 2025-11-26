@@ -39,4 +39,5 @@ description: "Links to each years issues, with a count of issues per year"
 <li><a href="/year/1932"><strong>1932</strong> <span class="taxonomy__count">52 Issues</span></a></li>
 <li><a href="/year/1933"><strong>1933</strong> <span class="taxonomy__count">50 Issues</span></a></li>
 <li><a href="/year/1934"><strong>1934</strong> <span class="taxonomy__count">52 Issues</span></a></li>
+<li><a href="/year/1935"><strong>1935</strong> <span class="taxonomy__count">52 Issues</span></a></li>
 </ul>
