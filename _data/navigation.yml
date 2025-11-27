@@ -81,12 +81,12 @@ years:
       url: /year/1935
     - title: 1936
       url: /year/1936
-    # - title: 1937
-    #   url: /year/1937
-    # - title: 1938
-    #   url: /year/1938
-    # - title: 1939
-    #   url: /year/1939
+    - title: 1937
+      url: /year/1937
+    - title: 1938
+      url: /year/1938
+    - title: 1939
+      url: /year/1939
     # - title: 1940
     #   url: /year/1940
     # - title: 1941
