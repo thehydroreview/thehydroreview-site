@@ -12,18 +12,18 @@ Most of the tools used to create this site are open-source with permissive licen
 ### Open Source
 
 * This site is powered by [Jekyll](https://jekyllrb.com/).
-* The site design is based on [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes), by [Michael Rose](https://mademistakes.com/).
+* The site design is based on the [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) theme, by [Michael Rose](https://mademistakes.com/).
 * PDF operations were performed using [Poppler](https://poppler.freedesktop.org/) and [GhostScript](https://ghostscript.com/).
-* Optical Character Recognition was performed using [Tesseract](https://tesseract-ocr.github.io/).
-* Image processing was performed using [ImageMagick](https://imagemagick.org/) and [ScanTailor](https://github.com/4lex4/scantailor-advanced).
+* Optical Character Recognition was performed using [Tesseract](https://tesseract-ocr.github.io/) and [OCRMyPDF](https://ocrmypdf.readthedocs.io/en/latest/).
+* Image processing was performed using [ImageMagick](https://imagemagick.org/) and [ScanTailor](https://github.com/4lex4/scantailor-advanced). Duplicate detection was performed with [DigiKam](https://www.digikam.org/).
 * Search word dictionaries are based on [SCOWL](http://wordlist.aspell.net/) that are built into the aspell tool.
 * EXIF metadata for the images was inserted using [exiftool](https://exiftool.org/) by Phil Harvey and supported by [StarGeek](https://exiftool.org/forum/index.php?action=profile;u=1175).
 
 ### Free-to-use
 
 * Icons on this site are provided by [Font Awesome](https://fontawesome.com/).
-* Development and editing was done primarily in [VSCode](https://github.com/microsoft/vscode).
-* Source code is stored in public [Github repos](https://github.com/thehydroreview) and deployed to production using modern CI/CD methods.
+* Development and editing was done primarily in [VSCode](https://github.com/microsoft/vscode) on Windows.
+* Source code for the site is stored in public [Github repos](https://github.com/thehydroreview) and deployed to production using modern CI/CD methods. The image data is not stored on a public cloud at this time.
 * Various pieces of vector art on the site from [Vecteezy](https://www.vecteezy.com)
   * Water tower by [Abdurrohim Arifuddin](https://www.vecteezy.com/members/113855795731930470492)
   * Newspaper in OG image by [Diana Johanna Velasquez](https://www.vecteezy.com/members/djvstock)

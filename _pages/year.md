@@ -25,7 +25,7 @@ description: "Links to each years issues, with a count of issues per year"
 <li><a href="/year/1918"><strong>1918</strong> <span class="taxonomy__count">52 Issues</span></a></li>
 <li><a href="/year/1919"><strong>1919</strong> <span class="taxonomy__count">52 Issues</span></a></li>
 <li><a href="/year/1920"><strong>1920</strong> <span class="taxonomy__count">53 Issues</span></a></li>
-<li><a href="/year/1921"><strong>1921</strong> <span class="taxonomy__count">45 Issues</span></a></li>
+<li><a href="/year/1921"><strong>1921</strong> <span class="taxonomy__count">51 Issues</span></a></li>
 <li><a href="/year/1922"><strong>1922</strong> <span class="taxonomy__count">52 Issues</span></a></li>
 <li><a href="/year/1923"><strong>1923</strong> <span class="taxonomy__count">52 Issues</span></a></li>
 <li><a href="/year/1924"><strong>1924</strong> <span class="taxonomy__count">52 Issues</span></a></li>
@@ -47,7 +47,7 @@ description: "Links to each years issues, with a count of issues per year"
 <li><a href="/year/1940"><strong>1940</strong> <span class="taxonomy__count">52 Issues</span></a></li>
 <li><a href="/year/1941"><strong>1941</strong> <span class="taxonomy__count">52 Issues</span></a></li>
 <li><a href="/year/1942"><strong>1942</strong> <span class="taxonomy__count">53 Issues</span></a></li>
-<li><a href="/year/1943"><strong>1943</strong> <span class="taxonomy__count">52 Issues</span></a></li>
+<li><a href="/year/1943"><strong>1943</strong> <span class="taxonomy__count">53 Issues</span></a></li>
 <li><a href="/year/1944"><strong>1944</strong> <span class="taxonomy__count">52 Issues</span></a></li>
 <li><a href="/year/1945"><strong>1945</strong> <span class="taxonomy__count">52 Issues</span></a></li>
 <li><a href="/year/1946"><strong>1946</strong> <span class="taxonomy__count">52 Issues</span></a></li>
