@@ -87,19 +87,19 @@ years:
       url: /year/1938
     - title: 1939
       url: /year/1939
-    # - title: 1940
-    #   url: /year/1940
-    # - title: 1941
-    #   url: /year/1941
-    # - title: 1942
-    #   url: /year/1942
-    # - title: 1943
-    #   url: /year/1943
-    # - title: 1944
-    #   url: /year/1944
-    # - title: 1945
-    #   url: /year/1945
-    # - title: 1946
-    #   url: /year/1946
-    # - title: 1947
-    #   url: /year/1947
+    - title: 1940
+      url: /year/1940
+    - title: 1941
+      url: /year/1941
+    - title: 1942
+      url: /year/1942
+    - title: 1943
+      url: /year/1943
+    - title: 1944
+      url: /year/1944
+    - title: 1945
+      url: /year/1945
+    - title: 1946
+      url: /year/1946
+    - title: 1947
+      url: /year/1947

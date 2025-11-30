@@ -36,15 +36,7 @@ Most likely, you'll want to search for someone by name. It's best to start with 
 
 Once you find an issue that might have the information you want, click on it to show thumbnails of the pages. The "full issue" link, as shown below, will open an Adobe PDF file in a new browser tab.
 
-___
-
-![masthead example](/assets/images/2025-09-01/fullissue.png)
-
-___
-
 Within the PDF tab, search for a specific word by pressing **CTRL-F**. This will give better results than the site search. It's best to zoom to 75% or greater to be able to see the highlighted search term. Or, you can save the PDF to your own computer and use Adobe Acrobat Reader or similar software to view and print the pages at home.
-
-<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/qP4pABbWtfA?controls=0" frameborder="0" allowfullscreen></iframe>
 
 ## Another Way to Search
 

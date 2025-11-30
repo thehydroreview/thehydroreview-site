@@ -44,4 +44,12 @@ description: "Links to each years issues, with a count of issues per year"
 <li><a href="/year/1937"><strong>1937</strong> <span class="taxonomy__count">52 Issues</span></a></li>
 <li><a href="/year/1938"><strong>1938</strong> <span class="taxonomy__count">52 Issues</span></a></li>
 <li><a href="/year/1939"><strong>1939</strong> <span class="taxonomy__count">52 Issues</span></a></li>
+<li><a href="/year/1940"><strong>1940</strong> <span class="taxonomy__count">52 Issues</span></a></li>
+<li><a href="/year/1941"><strong>1941</strong> <span class="taxonomy__count">52 Issues</span></a></li>
+<li><a href="/year/1942"><strong>1942</strong> <span class="taxonomy__count">53 Issues</span></a></li>
+<li><a href="/year/1943"><strong>1943</strong> <span class="taxonomy__count">52 Issues</span></a></li>
+<li><a href="/year/1944"><strong>1944</strong> <span class="taxonomy__count">52 Issues</span></a></li>
+<li><a href="/year/1945"><strong>1945</strong> <span class="taxonomy__count">52 Issues</span></a></li>
+<li><a href="/year/1946"><strong>1946</strong> <span class="taxonomy__count">52 Issues</span></a></li>
+<li><a href="/year/1947"><strong>1947</strong> <span class="taxonomy__count">52 Issues</span></a></li>
 </ul>
