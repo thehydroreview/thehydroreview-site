@@ -1,6 +1,6 @@
 ---
 permalink: /contact/
-title: Contact
+title: Contact The Hydro Review
 ---
 
 We hope this site is useful and informative. We've done our best to ensure the data is correct and indexed properly. Over time, we will make changes to any information that is found to be incorrect.

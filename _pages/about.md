@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: About
+title: About The Hydro Review -- Hydro Oklahoma's Hometown Newspaper
 toc: true
 ---
 

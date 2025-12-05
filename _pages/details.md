@@ -1,5 +1,5 @@
 ---
-title: Technical Details
+title: Technical Details -- The Hydro Review
 description: "Technical details about this site, how it is built, and whose contributions helped."
 permalink: /details/
 toc: true

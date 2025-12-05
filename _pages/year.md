@@ -1,10 +1,9 @@
 ---
-title: Year Index
-description: "Links to each years issues, with a count of issues per year"
+title: Index of Issues by Year -- The Hydro Review
+description: "Links to each years issues, with a count of issues per year. "
 layout: issue
 permalink: /year/
 og_image: /assets/banners/thehydroreview_og.jpg
-description: "Links to each years issues, with a count of issues per year"
 ---
 
 <ul class="taxonomy__index">
