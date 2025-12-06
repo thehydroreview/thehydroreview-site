@@ -42,10 +42,20 @@ User-agent: Diffbot
 User-agent: DuckAssistBot
 User-agent: Echobot Bot
 User-agent: EchoboxBot
+User-agent: FacebookBot
+User-agent: facebookexternalhit
 User-agent: Factset_spyderbot
 User-agent: FirecrawlAgent
 User-agent: FriendlyCrawler
 User-agent: Gemini-Deep-Research
+User-agent: Google-CloudVertexBot
+User-agent: Google-Extended
+User-agent: Google-Firebase
+User-agent: Google-NotebookLM
+User-agent: GoogleAgent-Mariner
+User-agent: GoogleOther
+User-agent: GoogleOther-Image
+User-agent: GoogleOther-Video
 User-agent: GPTBot
 User-agent: iaskspider/2.0
 User-agent: IbouBot
@@ -56,6 +66,11 @@ User-agent: ISSCyberRiskCrawler
 User-agent: Kangaroo Bot
 User-agent: LinerBot
 User-agent: Linguee Bot
+User-agent: meta-externalagent
+User-agent: Meta-ExternalAgent
+User-agent: meta-externalfetcher
+User-agent: Meta-ExternalFetcher
+User-agent: meta-webindexer
 User-agent: MistralAI-User
 User-agent: MistralAI-User/1.0
 User-agent: MyCentralAIScraperBot
@@ -96,4 +111,3 @@ User-agent: YandexAdditional
 User-agent: YandexAdditionalBot
 User-agent: YouBot
 Disallow: /
-
