@@ -79,7 +79,8 @@ plugins:
 #  - jemoji
   - jekyll-include-cache
   - jekyll-remote-theme
-
+  - jekyll-redirect-from
+  
 defaults:
   # _posts
   - scope:
