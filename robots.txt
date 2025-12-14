@@ -43,7 +43,6 @@ User-agent: DuckAssistBot
 User-agent: Echobot Bot
 User-agent: EchoboxBot
 User-agent: FacebookBot
-User-agent: facebookexternalhit
 User-agent: Factset_spyderbot
 User-agent: FirecrawlAgent
 User-agent: FriendlyCrawler
@@ -111,3 +110,6 @@ User-agent: YandexAdditional
 User-agent: YandexAdditionalBot
 User-agent: YouBot
 Disallow: /
+
+User-agent: facebookexternalhit
+Allow: /
