@@ -41,3 +41,24 @@ These dates were missing in the original scanned files. We have the original arc
 * 1932-10-27
 * 1936-02-27
 * 1937-05-13
+
+These issues had an odd number of pages, indicating that something went wrong in the scanning process or perhaps a page was damaged in the original microfilm scans.
+
+* 1909-01-07
+* 1920-01-01
+* 1920-11-25
+* 1921-07-07
+* 1921-12-29
+* 1922-05-25
+* 1923-11-22
+* 1924-05-08
+* 1925-04-16
+* 1925-12-31
+* 1926-12-30
+* 1927-01-20
+* 1927-02-03
+* 1929-07-04
+* 1930-01-02
+* 1930-03-20
+* 1932-11-03
+* 1937-05-27
