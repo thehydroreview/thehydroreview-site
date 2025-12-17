@@ -112,4 +112,5 @@ User-agent: YouBot
 Disallow: /
 
 User-agent: facebookexternalhit
+User-agent: LinkedInBot 
 Allow: /
