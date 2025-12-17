@@ -11,8 +11,9 @@ main:
 years:
   - title: Links
     children:
-    - title: "Hydro Historical Society"
-      url: https://hydrohistory.org
+    - title: "Hydro Tri County Historical Society (Facebook)"
+      url: https://www.facebook.com/groups/1016477133673656
+      target: true
   - title: Issues by year
     children:
     - title: 1904
