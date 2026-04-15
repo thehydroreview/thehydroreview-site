@@ -15,6 +15,9 @@ TBD
 | 1901 - 1919 | W.M. Wellman, H.G. Jones | W.M. Wellman |
 | 1920 | V.F. Wilson |  |
 | 1921 - ? | Jess and Peggy Herndon | |
+| 1970s | Harold Peterson | |
+| 1980s | Ken and Laurel Redding | |
+| 1990s | Richard and Susan Hume (Laurel's Parents) | |
 
 
 ## Technical Details
