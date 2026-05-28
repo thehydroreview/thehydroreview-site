@@ -10,7 +10,7 @@ gem "csv"
 gem "base64"
 gem "bigdecimal"
 gem "ostruct"
-gem "fiddle"
+# gem "fiddle"
 gem "faraday-retry"
 
 # If you have any plugins, put them here!
