@@ -8,3 +8,4 @@ vendor/
 _algolia_api_key
 content/*
 node_modules
+Gemfile.lock
