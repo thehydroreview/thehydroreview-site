@@ -19,12 +19,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: "3.4.9" # Not needed with a .ruby-version file
+        bundler-cache: true
     - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+      run: bundle exec jekyll build --config "_config.yml,_configs/_config-prod.yml,_configs/_config-skin-toggle.yml"
     - name: "Deploy to AWS S3"
       run: aws s3 sync ./_site/ s3://${{ secrets.AWS_S3_BUCKET_NAME }} --acl public-read --delete --cache-control max-age=604800
     - name: "Create AWS Cloudfront Invalidation"

@@ -26,7 +26,6 @@ date_format: "%A, %B %-d, %Y"
 
 # Build settings
 markdown: kramdown
-remote_theme: thehydroreview/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
 paginate: 10 # amount of posts to show
